@@ -57,7 +57,7 @@ const Section2 = () => {
         {/* RIGHT IMAGE */}
         <div className="w-full lg:w-1/2">
           <Image
-            src="/images/section2new-Image.png"
+            src="/images/Section2new-Image.png"
             alt="Two people talking"
             width={600}
             height={600}

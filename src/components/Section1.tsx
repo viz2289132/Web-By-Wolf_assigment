@@ -53,7 +53,7 @@ const Section1 = () => {
         <div className="w-full lg:w-1/2 flex justify-end items-center relative mt-10 lg:mt-0">
           <div className="w-full relative aspect-[4/3] sm:aspect-[16/9] lg:aspect-auto lg:h-[700px] 2xl:w-[70%]">
             <Image
-              src="/images/motorcycles.png"
+              src="/images/motorCycles.png"
               alt="Motorcycles"
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"
