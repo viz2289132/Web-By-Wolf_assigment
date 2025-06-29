@@ -2,9 +2,11 @@
 
 import React, { AnchorHTMLAttributes } from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
 
-const transition = {
+
+import { motion, Transition } from "framer-motion";
+
+const transition: Transition = {
   type: "spring",
   mass: 0.5,
   damping: 11.5,
@@ -12,6 +14,7 @@ const transition = {
   restDelta: 0.001,
   restSpeed: 0.001,
 };
+
 
 export const MenuItem = ({
   setActive,
