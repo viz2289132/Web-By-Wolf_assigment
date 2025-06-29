@@ -24,7 +24,7 @@ const Section1 = () => {
           </div>
 
           <div className="space-y-4">
-            {[1,2,3].map(i => (
+            {[1, 2, 3].map(i => (
               <div key={i} className="flex items-start gap-4">
                 <Image
                   src={`/images/blog_img${i}.png`}
@@ -51,7 +51,7 @@ const Section1 = () => {
 
         {/* RIGHT IMAGE */}
         <div className="w-full lg:w-1/2 flex justify-end items-center relative mt-10 lg:mt-0">
-          <div className="w-full 2xl:w-[70%] min-h-[700px] relative">
+          <div className="w-full relative aspect-[4/3] sm:aspect-[16/9] lg:aspect-auto lg:h-[700px] 2xl:w-[70%]">
             <Image
               src="/images/motorcycles.png"
               alt="Motorcycles"

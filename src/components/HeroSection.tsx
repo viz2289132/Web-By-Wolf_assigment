@@ -66,8 +66,8 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* RIGHT: Hero image with diagonal cut */}
-      <div className="relative hidden lg:block w-full lg:w-1/2 min-h-[400px] lg:min-h-dvh clip-diagonal-right">
+      {/* RIGHT: Hero image visible on all devices */}
+      <div className="relative w-full lg:w-1/2 aspect-[4/3] sm:aspect-[16/9] lg:aspect-auto lg:min-h-dvh clip-diagonal-right">
         <Image
           src="/images/hero_img.png"
           alt="Motorcycle Riders"
